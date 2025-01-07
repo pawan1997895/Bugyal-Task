@@ -30,5 +30,9 @@ Start the frontend (React app):
 cd ../frontend
 npm start
 
+ Build for production
+cd frontend
+npm run build
+
 
 
