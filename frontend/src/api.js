@@ -1,5 +1,3 @@
-const BASE_URL = 'https://bugyal-task-api.vercel.app';
-
 export const GetAllProducts = async(search = '', page = 1, limit = 5) => {
     const url =
         `${BASE_URL}/api/product?search=${search}&page=${page}&limit=${limit}`;
